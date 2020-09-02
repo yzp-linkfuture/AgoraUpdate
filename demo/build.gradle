@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ksystreamer'
+            keyPassword 'kscloud'
+            storeFile file('../ksystreamer.jks')
+            storePassword 'kscloud'
+        }
+    }
+
+    compileSdkVersion 26
+
+    defaultConfig {
+        applicationId "com.ksyun.media.diversity.agorastreamer.demo"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-fPIC -O2 -g -std=c++11 -msse2"
+            }
+        }
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.config
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.ksyun.media:libksylive-java:2.4.2'
+    implementation 'com.ksyun.media:libksylive-arm64:2.4.2'
+    implementation 'com.ksyun.media:libksylive-armv7a:2.4.2'
+    implementation 'com.ksyun.media:libksylive-x86:2.4.2'
+}

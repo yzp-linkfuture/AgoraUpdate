@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate",
+      "sdkFolder": "/Users/yangzhipeng/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/build/intermediates",
+      "gradleModulePathName": ":demo",
+      "moduleRootFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo",
+      "makeFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/.cxx",
+      "cxxFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx",
+      "ndkFolder": "/Users/yangzhipeng/Library/Android/sdk/ndk/21.3.6528147",
+      "ndkVersion": "21.3.6528147",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-fPIC -O2 -g -std\u003dc++11 -msse2"
+    ],
+    "variantName": "release",
+    "soFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/build/intermediates/cmake/release/lib",
+    "objFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a",
+  "jsonFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/build/intermediates/cmake/release/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cxx/release/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/release/armeabi-v7a/compile_commands.json"
+}

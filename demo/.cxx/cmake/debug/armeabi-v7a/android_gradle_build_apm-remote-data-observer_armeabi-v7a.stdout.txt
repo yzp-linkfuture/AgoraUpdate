@@ -1,0 +1,13 @@
+[1/2] Building CXX object CMakeFiles/apm-remote-data-observer.dir/src/main/jni/remote_data_observer.cpp.o
+FAILED: /Users/yangzhipeng/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/yangzhipeng/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/yangzhipeng/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dapm_remote_data_observer_EXPORTS -I../../../../src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fPIC -O2 -g -std=c++11 -msse2 -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/apm-remote-data-observer.dir/src/main/jni/remote_data_observer.cpp.o -MF CMakeFiles/apm-remote-data-observer.dir/src/main/jni/remote_data_observer.cpp.o.d -o CMakeFiles/apm-remote-data-observer.dir/src/main/jni/remote_data_observer.cpp.o -c /Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/src/main/jni/remote_data_observer.cpp
+clang++: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
+In file included from /Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/src/main/jni/remote_data_observer.cpp:10:
+In file included from /Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/src/main/jni/include/IAgoraRtcEngine.h:15:
+/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/src/main/jni/include/AgoraBase.h:81:20: error: member reference base type 'void' is not a structure or union
+        if (c && !c->queryInterface(iid, (void**)&p))
+                  ~^ ~~~~~~~~~~~~~~
+/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/src/main/jni/remote_data_observer.cpp:191:14: note: in instantiation of function template specialization 'agora::util::AutoPtr<agora::media::IMediaEngine>::queryInterface<void, agora::INTERFACE_ID_TYPE>' requested here
+        mediaEngine.queryInterface(rtcEngine, agora::AGORA_IID_MEDIA_ENGINE);
+                    ^
+1 error generated.
+ninja: build stopped: subcommand failed.

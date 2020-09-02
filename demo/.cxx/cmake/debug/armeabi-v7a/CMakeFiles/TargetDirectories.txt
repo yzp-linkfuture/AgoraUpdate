@@ -1,0 +1,3 @@
+/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/yangzhipeng/Downloads/KSYDiversityLive_Android-master/AgoraUpdate/demo/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/apm-remote-data-observer.dir
