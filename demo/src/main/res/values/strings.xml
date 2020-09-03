@@ -27,7 +27,7 @@
 
     <!-- Get your own app id at https://dashboard.agora.io/ -->
     <!--#YOUR APP ID#-->
-    <string name="app_id"></string>
+    <string name="app_id">d3ca73b112fc4a04bf5114c029854fb8</string>
 
 
 </resources>

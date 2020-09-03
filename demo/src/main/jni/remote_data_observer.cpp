@@ -148,7 +148,7 @@ public:
 };
 
 //TODO: no use global ref
-static void *rtcEngine = NULL;
+static agora::rtc::IRtcEngine *rtcEngine = nullptr;
 static AgoraVideoFrameObserver s_videoFrameObserver;
 static AgoraAudioFrameObserver s_audioFrameObserver;
 
@@ -169,7 +169,7 @@ extern "C" void __attribute__((visibility("default"))) unloadAgoraRtcEnginePlugi
 #if DEBUG
 	fclose(file);
 #endif
-	rtcEngine = NULL;
+    rtcEngine = nullptr;
 }
 
 RemoteDataObserver::RemoteDataObserver(void)

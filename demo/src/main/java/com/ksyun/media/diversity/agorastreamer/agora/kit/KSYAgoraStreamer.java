@@ -114,6 +114,7 @@ public class KSYAgoraStreamer extends KSYStreamer {
         mRTCRemoteImgTexScaleFilter.setReuseFbo(false);
 
         setRTCSubScreenRect(0.65f, 0.f, 0.35f, 0.3f, SCALING_MODE_CENTER_CROP);
+//        setRTCSubScreenRect(0.5f, 0.35f, 0.5f, 0.3f, SCALING_MODE_CENTER_CROP);
 
         mMediaManager.registerUiHandler(new MediaManager.MediaUiHandler() {
             @Override

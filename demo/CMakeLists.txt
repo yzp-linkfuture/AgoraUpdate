@@ -21,36 +21,6 @@ add_library( # Sets the name of the library.
         src/main/jni/remote_data_observer.cpp
         )
 
-#add_library(
-#        HDACEngine
-#        SHARED
-#        IMPORTED
-#)
-#
-#add_library(
-#        agora-rtc-sdk
-#        SHARED
-#        IMPORTED
-#)
-#
-#add_library(
-#        agora-rtc-sdk-jni
-#        SHARED
-#        IMPORTED
-#)
-#
-#add_library(
-#        agora-crypto
-#        SHARED
-#        IMPORTED
-#)
-#
-#add_library(
-#        videoprp
-#        SHARED
-#        IMPORTED
-#)
-
 add_library(
         yuv_static
         STATIC
@@ -58,18 +28,6 @@ add_library(
 )
 
 if (${ANDROID_ABI} STREQUAL "armeabi")
-#    set_target_properties(
-#            agora-av
-#            PROPERTIES IMPORTED_LOCATION
-#            ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/armeabi/libHDACEngine.so
-#    )
-#
-#    set_target_properties(
-#            agora-rtc
-#            PROPERTIES IMPORTED_LOCATION
-#            ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/armeabi/libagora-rtc-sdk-jni.so
-#    )
-
     set_target_properties(
             yuv_static
             PROPERTIES IMPORTED_LOCATION
@@ -78,18 +36,6 @@ if (${ANDROID_ABI} STREQUAL "armeabi")
 endif (${ANDROID_ABI} STREQUAL "armeabi")
 
 if (${ANDROID_ABI} STREQUAL "armeabi-v7a")
-#    set_target_properties(
-#            agora-av
-#            PROPERTIES IMPORTED_LOCATION
-#            ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/armeabi-v7a/libHDACEngine.so
-#    )
-#
-#    set_target_properties(
-#            agora-rtc
-#            PROPERTIES IMPORTED_LOCATION
-#            ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/armeabi-v7a/libagora-rtc-sdk-jni.so
-#    )
-
     set_target_properties(
             yuv_static
             PROPERTIES IMPORTED_LOCATION
@@ -98,18 +44,6 @@ if (${ANDROID_ABI} STREQUAL "armeabi-v7a")
 endif (${ANDROID_ABI} STREQUAL "armeabi-v7a")
 
 if (${ANDROID_ABI} STREQUAL "arm64-v8a")
-#    set_target_properties(
-#            agora-av
-#            PROPERTIES IMPORTED_LOCATION
-#            ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/arm64-v8a/libHDACEngine.so
-#    )
-#
-#    set_target_properties(
-#            agora-rtc
-#            PROPERTIES IMPORTED_LOCATION
-#            ${CMAKE_CURRENT_SOURCE_DIR}/src/main/jniLibs/arm64-v8a/libagora-rtc-sdk-jni.so
-#    )
-
     set_target_properties(
             yuv_static
             PROPERTIES IMPORTED_LOCATION
@@ -140,8 +74,6 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
         apm-remote-data-observer
-#        agora-av
-#        agora-rtc
         yuv_static
         # Links the target library to the log library
         # included in the NDK.
